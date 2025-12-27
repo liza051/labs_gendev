@@ -14,7 +14,7 @@ const fn = () => {
 
 fn();
 
-let createUser = (name, city) => {
+let createUser = (name, city) =>  {
     return {name, city}
 }
 
