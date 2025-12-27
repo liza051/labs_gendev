@@ -1,6 +1,6 @@
 "use strict";
 
-const pipe = (...funcs) => {
+const pipe = (...funcs) =>  {
   if (funcs.some((fn) => typeof fn !== "function")) {
     throw new Error("pipe() accepts only functions");
   }
