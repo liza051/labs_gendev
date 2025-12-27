@@ -14,7 +14,7 @@ function max(matrix) {
   let maxValue = matrix[0][0];
   for (let row of matrix) {
     for (let value of row) {
-      if (value > maxValue) {
+      if (value > maxValue)  {
         maxValue = value;
       }
     }
