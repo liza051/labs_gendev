@@ -6,7 +6,7 @@ console.log(result);
 // Результат: [2, 1, 3]
 
 // виконання
-function unique(arr)  {
+function unique(arr) {
   const new_arr = [];
   for (let element of arr) {
     if (!new_arr.includes(element)) {
