@@ -10,7 +10,7 @@ let range = (start, end) => {
 console.log(range(15, 30));
 
 // функція, що створює масив непарних чисел від start до end включно
-let rangeOdd = (start, end) => {
+let rangeOdd = (start, end) =>  {
   let array = [];
   for (let i = start; i <= end; i++) if (i % 2) array.push(i);
   return array;
