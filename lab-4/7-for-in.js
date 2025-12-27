@@ -13,7 +13,7 @@ const persons = {
 console.log(ages(persons));
 
 function ages(necrologue) {
-  for (const person in necrologue)  {
+  for (const person in necrologue) {
     necrologue[person]["lived"] =
       necrologue[person]["died"] - necrologue[person]["born"];
   }
