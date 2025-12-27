@@ -3,7 +3,7 @@
 // Умова Шемсадінова
 const contract =
   (fn, ...types) =>
-  (...args) => {
+  (...args) =>  {
     for (let i = 0; i < args.length; i++) {
       const expectedType = types[i].name.toLowerCase();
       if (typeof args[i] !== expectedType) {
