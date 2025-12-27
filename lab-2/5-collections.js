@@ -14,7 +14,7 @@ let findPhoneByName = (name) => {
 
 console.log(findPhoneByName("Olga"));
 
-const createHash = (people) =>  {
+const createHash = (people) => {
 	const hash = {};
 	for (let person of people) {
 		hash[person.name] = person.phone;
