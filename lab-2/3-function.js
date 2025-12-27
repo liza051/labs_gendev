@@ -12,7 +12,7 @@ function cube(x) {
   return x * x * x;
 }
 
-function calculate() {
+function calculate()  {
   const results = [];
 
   for (let i = 0; i < 10; i++) {
