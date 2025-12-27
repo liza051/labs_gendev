@@ -9,6 +9,6 @@ const e = sum(10, -1, -1, -1); // e === 7
 
 console.log(a, b, c, d, e);
 
-function sum(...args)  {
+function sum(...args) {
   return args.reduce((acc, cur) => acc + cur, 0);
 }
