@@ -15,7 +15,7 @@ function sum(...args) {
     return sum;
   }
   let i = 0;
-  do  {
+  do {
     sum += args[i];
     i++;
   } while (i < args.length);
