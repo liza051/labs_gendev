@@ -18,7 +18,7 @@ console.log(arr.pop()); // Виводить: first
 console.log(arr.pop()); // Виводить: undefined
 
 // Виконання
-function array()  {
+function array() {
   const data = [];
 
   const arr = (i) => data[i];
