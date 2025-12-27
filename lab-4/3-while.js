@@ -13,7 +13,7 @@ console.log(a, b, c, d, e);
 
 function sum(...args) {
   let sum = 0;
-  while (args.length)  {
+  while (args.length) {
     sum += args.shift();
   }
   return sum;
