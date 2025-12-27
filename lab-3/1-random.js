@@ -1,6 +1,6 @@
 "use strict";
 
-function randomInt(min, max)  {
+function randomInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 console.log(randomInt(0, 100));
