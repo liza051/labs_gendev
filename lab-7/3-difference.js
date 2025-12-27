@@ -8,7 +8,7 @@ console.log(result);
 // Результат: ['Beijing']
 
 // виконання
-function difference(array1, array2) {
+function difference(array1, array2)  {
   const new_arr = [];
   for (const element of array1) {
     if (!array2.includes(element)) {
