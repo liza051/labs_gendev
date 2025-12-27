@@ -8,7 +8,7 @@ const e = sum(10, -1, -1, -1); // e === 7
 console.log(a, b, c, d, e);
 
 // виконання
-function sum(...args)  {
+function sum(...args) {
   let sum = 0;
   for (let arg = 0; arg < args.length; arg++) {
     sum += args[arg];
