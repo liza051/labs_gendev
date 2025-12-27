@@ -1,7 +1,7 @@
 "use strict";
 
 // without reduce
-function makeIp(ip = "127.0.0.1")  {
+function makeIp(ip = "127.0.0.1") {
   const parts = ip.split(".").map(Number);
   return (parts[0] << 24) + (parts[1] << 16) + (parts[2] << 8) + parts[3];
 }
