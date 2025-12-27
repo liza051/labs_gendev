@@ -9,7 +9,7 @@ const seq = (...fns) => {
   chain.push(...fns);
 
   const next = (arg) => {
-    if (typeof arg === "function")  {
+    if (typeof arg === "function") {
       chain.push(arg);
       return next;
     }
