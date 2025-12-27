@@ -7,7 +7,7 @@ const inc_num = (num) => {
 const myNum = 5;
 console.log(inc_num(myNum));
 
-const inc_obj = (obj) => {
+const inc_obj = (obj) =>  {
   ++obj.value;
 };
 
