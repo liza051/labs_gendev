@@ -9,6 +9,6 @@ console.log(myAge);
 // Функція з підняттям
 myFunction(myAge);
 
-function myFunction(age)  {
+function myFunction(age) {
 	console.log("I'm ", age, " years old");
 }
