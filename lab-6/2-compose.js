@@ -1,6 +1,6 @@
 "use strict";
 
-const compose = (...fns) =>  {
+const compose = (...fns) => {
   if (fns.some((f) => typeof f !== "function"))
     throw Error("compose() accepts only functions");
   const fn = (x) => {
