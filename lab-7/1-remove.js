@@ -6,7 +6,7 @@ removeElement(array, 50);
 console.log(array);
 // Результат: [1, 2, 3, 4, 6, 7]
 
-function removeElement(arr, item)  {
+function removeElement(arr, item) {
   for (let element of arr) {
     if (element === item) {
       arr.splice(arr.indexOf(element), 1);
